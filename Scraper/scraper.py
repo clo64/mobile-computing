@@ -32,11 +32,11 @@ class FileScraper():
         raw_data = self.extract_line()
         token_container = raw_data.split()
         #temperature
-        print('Temperature: ', token_container[15])
+        print('Temperature: ', token_container[19])
         #humidity
         print('Humidity: ', token_container[19])
         #light
-        print('Light: ', token_container[17])
+        print('Light: ', token_container[15])
 
 #test code for scraper class
 if __name__ == "__main__":
