@@ -15,7 +15,7 @@ class FileScraper():
     def __init__(self, file_Name):
         self.file_Name = file_Name
 
-    def extract_lines(self):
+    def extract_line(self):
         with open(self.file_Name, 'r') as f:
             self.content = f.readlines()[-1]
         return self.content
@@ -28,12 +28,23 @@ class FileScraper():
     def print_last_line(self):
         print(self.content)
 
+    def extract_sensor_data(self):
+        raw_data = self.extract_line()
+        token_container = raw_data.split()
+        #temperature
+        print('Temperature: ', token_container[15])
+        #humidity
+        print('Humidity: ', token_container[19])
+        #light
+        print('Light: ', token_container[17])
+
 #test code for scraper class
 if __name__ == "__main__":
     
     file_Name = input("Please enter the file name: ")
     scraper = FileScraper(file_Name)
     while True:
-        scraper.extract_lines()
+        scraper.extract_line()
         scraper.print_last_line()
+        scraper.extract_sensor_data()
         time.sleep(2)
