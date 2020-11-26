@@ -33,5 +33,7 @@ if __name__ == "__main__":
     
     file_Name = input("Please enter the file name: ")
     scraper = FileScraper(file_Name)
-    scraper.extract_lines()
-    scraper.print_last_line()
+    while True:
+        scraper.extract_lines()
+        scraper.print_last_line()
+        time.sleep(2)
