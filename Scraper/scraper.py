@@ -32,7 +32,7 @@ class FileScraper():
         raw_data = self.extract_line()
         token_container = raw_data.split()
         #temperature
-        print('Temperature: ', token_container[19])
+        print('Temperature: ', token_container[17])
         #humidity
         print('Humidity: ', token_container[19])
         #light
