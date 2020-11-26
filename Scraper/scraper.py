@@ -29,6 +29,9 @@ class FileScraper():
         print(self.content)
 
     def extract_sensor_data(self):
+        '''This is just a demonstration that we can
+           extract the individual data points. We actually 
+           need to DO something with them now.'''
         raw_data = self.extract_line()
         token_container = raw_data.split()
         #temperature
@@ -37,6 +40,7 @@ class FileScraper():
         print('Humidity: ', token_container[19])
         #light
         print('Light: ', token_container[15])
+
 
 #test code for scraper class
 if __name__ == "__main__":
