@@ -1,0 +1,12 @@
+TS:1606430099727	Drop:0	RX:64	TX:03405	RSSI:-58.50	    CRC	Data: 0c 00 01 75 03 13  | light: 0 temp: 37.30 humidity: 787
+TS:1606430099731	Drop:202	RX:64	TX:03405	RSSI:-60.00	    CRC	Data: 0c 00 01 6f 03 18  | light: 0 temp: 36.70 humidity: 792
+TS:1606430099735	Drop:0	RX:64	TX:03405	RSSI:-62.00	    CRC	Data: 0c 00 01 6e 03 17  | light: 0 temp: 36.60 humidity: 791
+TS:1606430099739	Drop:0	RX:64	TX:03405	RSSI:-62.50	    CRC	Data: 0c 00 01 6f 03 19  | light: 0 temp: 36.70 humidity: 793
+TS:1606430099743	Drop:0	RX:64	TX:03405	RSSI:-62.50	    CRC	Data: 0c 00 01 6f 03 17  | light: 0 temp: 36.70 humidity: 791
+TS:1606430099756	Drop:0	RX:64	TX:03405	RSSI:-62.00	    CRC	Data: 0c 00 01 6e 03 19  | light: 0 temp: 36.60 humidity: 793
+TS:1606430100760	Drop:0	RX:64	TX:03405	RSSI:-60.50	    CRC	Data: 0c 00 01 6e 03 19  | light: 0 temp: 36.60 humidity: 793
+TS:1606430101758	Drop:0	RX:64	TX:03405	RSSI:-60.00	    CRC	Data: 0c 00 01 6e 03 19  | light: 0 temp: 36.60 humidity: 793
+TS:1606430102760	Drop:0	RX:64	TX:03405	RSSI:-60.50	    CRC	Data: 0c 00 01 6e 03 1a  | light: 0 temp: 36.60 humidity: 794
+TS:1606430103760	Drop:0	RX:64	TX:03405	RSSI:-60.50	    CRC	Data: 0c 00 01 6e 03 19  | light: 0 temp: 36.60 humidity: 793
+TS:1606430104760	Drop:0	RX:64	TX:03405	RSSI:-60.50	    CRC	Data: 0c 00 01 6e 03 19  | light: 0 temp: 36.60 humidity: 793
+TS:1606430105762	Drop:0	RX:64	TX:03405	RSSI:-63.00	    CRC	Data: 0c 00 01 6d 03 19  | light: 0 temp: 36.50 humidity: 793
