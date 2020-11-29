@@ -6,7 +6,7 @@ import time
 client = MongoClient('mongodb+srv://cowen:compproject@cluster0.1qgln.mongodb.net/Cluster0?retryWrites=true&w=majority')
 db = client.PIPdata
 
-file_Name = '../PIPtagCode/ReceiverCode/data.txt'
+file_Name = './PIPtagCode/ReceiverCode/data.txt'
 scraper = scraper.FileScraper(file_Name)
 while True:
     scraper.extract_line()
