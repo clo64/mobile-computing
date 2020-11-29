@@ -41,6 +41,15 @@ class FileScraper():
         #light
         print('Light: ', token_container[15])
 
+        sensor_package = {
+            'PIP':1,
+            'Temperature':token_container[17],
+            'Humidity'   :token_container[19],
+            'Light'      :token_container[15]
+            }
+
+        return sensor_package
+
 
 #test code for scraper class
 if __name__ == "__main__":
@@ -50,5 +59,5 @@ if __name__ == "__main__":
     while True:
         scraper.extract_line()
         scraper.print_last_line()
-        scraper.extract_sensor_data()
+        sensor_package = scraper.extract_sensor_data()
         time.sleep(2)
