@@ -12,5 +12,5 @@ while True:
     scraper.extract_line()
     scraper.print_last_line()
     sensor_package = scraper.extract_sensor_data()
-    result = db.PIPdata.replace_one({'PIP':1}, sensor_package,)
+    result = db.PIPdata.replace_one({'PIP':1}, sensor_package)
     time.sleep(2)
