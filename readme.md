@@ -1,8 +1,9 @@
 Okay!
-Here's how it works. You have to run this command to get the PIP tag data writing into a file
-called data.txt:
 
 NOTE: pip_to_database.py is you "main" application that you'll run. Remember that. 
+
+Here's how it works. You have to run this command to get the PIP tag data writing into a file
+called data.txt:
 
 sudo stdbuf -o0 ./pip_sense.v2 l l | stdbuf -o0 grep TX:0$1 | cat > data.txt
 
