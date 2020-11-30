@@ -1,6 +1,6 @@
 Okay!
 
-NOTE: pip_to_database.py is you "main" application that you'll run. Remember that. 
+NOTE: pip_to_database.py is your "main" application that you'll run. Remember that. 
 
 Here's how it works. You have to run this command to get the PIP tag data writing into a file
 called data.txt:
