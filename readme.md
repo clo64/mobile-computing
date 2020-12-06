@@ -17,3 +17,18 @@ and it'll start reading the data and uploading it to the Mongo Database.
 
 Have Fun. Fly Safe. 
 
+***How to run the webpage***
+
+After you install express and get a node_modules folder, add the node_modules files from this
+repository to the node_modules folder.
+
+Install charts.js into the node_modules folder also. Google installation syntax.
+
+run: node server.js
+
+Now go to: http://localhost:8080/PIPdata in your browser , you should see the graph and it 
+should be updating.
+
+Now go run the piptag and scrape in your linux environment. 
+
+Witness the magic.
