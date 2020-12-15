@@ -32,3 +32,9 @@ should be updating.
 Now go run the piptag and scrape in your linux environment. 
 
 Witness the magic.
+
+Steps from beginning:
+1. Start scrapping pip data using sudo stdbuf -o0 ./pip_sense.v2 l l | stdbuf -o0 grep TX:0$1 | cat > data.txt
+2. Run pip_to_database.py
+3. Run main.py
+4. Using terminal in node_module directory, type "node server.js" 
